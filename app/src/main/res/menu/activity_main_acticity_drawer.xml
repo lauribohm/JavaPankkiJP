@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/acctCr"
+            android:title="Luo tili" />
+        <item
+            android:id="@+id/acctPa"
+            android:title="Maksa/siirrä tililtä" />
+        <item
+            android:id="@+id/acctDe"
+            android:title="Talleta tilille rahaa" />
+        <item
+            android:id="@+id/cardCr"
+            android:title="Luo kortti" />
+        <item
+            android:id="@+id/cardPa"
+            android:title="Maksa/nosta kortilla" />
+        <item
+            android:id="@+id/cardCh"
+            android:title="Kortin asetukset" />
+        <item
+            android:id="@+id/Trans"
+            android:title="Tilitapahtumat" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/userSe"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Käyttäjä asetukset" />
+            <item
+                android:id="@+id/passCH"
+                android:icon="?android:attr/fingerprintAuthDrawable"
+                android:title="Vaihda salasana" />
+            <item
+                android:id="@+id/logOut"
+                android:icon="@android:drawable/ic_delete"
+                android:title="Kirjaudu ulos" />
+        </menu>
+    </item>
+
+</menu>
